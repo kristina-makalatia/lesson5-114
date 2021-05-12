@@ -1,0 +1,80 @@
+body {
+	height: 1000px;
+/*	padding-top: 76px;*/
+}
+
+/*header styles*/
+.logo {
+	display: inline-block;
+	margin-right: 50px;
+}
+.navigation {
+	display: inline-block;
+
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.header-wraper {
+	background-color: grey;
+	padding: 30px;
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 30;
+}
+
+/*section#1 styles*/
+.section1 {
+	margin-top: 76px;
+}
+.box-wraper {
+	height: 400px;
+	width: 400px;
+	background-color: yellow;
+	position: relative;
+}
+.child-box {
+	width:150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+}
+.child-box2 {
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.child-box3 {
+	width:150px;
+	height: 150px;
+	background-color: green;
+	position: absolute;
+	top: 180px;
+	left: 200px;
+	z-index: 6;
+}
+
+/*images example*/
+.image {
+	width: 700px;
+}
+.text-image {
+	color: red;
+	position: absolute;
+	top: 150px;
+	right: 100px;
+}
+.image-wraper {
+	position: relative;
+	/*width: 700px;*/
+	display: inline-block;
+}
